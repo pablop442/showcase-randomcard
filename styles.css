@@ -40,21 +40,8 @@ background: linear-gradient(to right, #0b8793, #360033);
   border-radius: 10px;
   border: none;
   background-color: #990303;
-  /* background-size: 48px 48px; */
   background: url("./backcardimg.png");
   background-size: cover;
-  /* background-image: radial-gradient(
-      transparent 20px,
-      #ffffff 20px,
-      #ffffff 24px,
-      transparent 24px
-    ),
-    radial-gradient(
-      transparent 20px,
-      #ffffff 20px,
-      #ffffff 24px,
-      transparent 24px
-    ); */
   background-position: 0 0, 24px 24px;
   -webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
   box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
@@ -102,13 +89,6 @@ div[class*="st"]:after {
   right: 5px;
   bottom: 2px;
 }
-
-/* Botones */
-/* .buttons {
-  top: 425px;
-  position: absolute;
-  
-} */
 #random {
   padding: 10px;
   background: #00010a;
