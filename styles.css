@@ -1,0 +1,184 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: #360033;  
+background: -webkit-linear-gradient(to right, #0b8793, #360033); 
+background: linear-gradient(to right, #0b8793, #360033); 
+
+}
+
+.title{
+    margin-top: 30px;
+   
+    color: #e5e5e5;
+    margin-bottom: 30px;
+}
+
+
+.card {
+  position: relative;
+  float: left;
+  margin: 10px;
+  width: 150px;
+  height: 220px;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
+}
+
+.backcard {
+  position: relative;
+  float: left;
+  margin: 10px;
+  width: 150px;
+  height: 220px;
+  border-radius: 10px;
+  border: none;
+  background-color: #990303;
+  /* background-size: 48px 48px; */
+  background: url("./backcardimg.png");
+  background-size: cover;
+  /* background-image: radial-gradient(
+      transparent 20px,
+      #ffffff 20px,
+      #ffffff 24px,
+      transparent 24px
+    ),
+    radial-gradient(
+      transparent 20px,
+      #ffffff 20px,
+      #ffffff 24px,
+      transparent 24px
+    ); */
+  background-position: 0 0, 24px 24px;
+  -webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.card p {
+  text-align: center;
+  font: 80px/220px "Oswald", sans-serif;
+  margin-bottom: auto;
+}
+.stdiamonds:before,
+.stdiamonds:after {
+  content: "♦";
+  color: #ff0000;
+}
+
+.sthearts:before,
+.sthearts:after {
+  content: "♥";
+  color: #ff0000;
+}
+
+.stclubs:before,
+.stclubs:after {
+  content: "♣";
+  color: #000;
+}
+
+.stspades:before,
+.stspades:after {
+  content: "♠";
+  color: #000;
+}
+
+div[class*="st"]:before {
+  position: absolute;
+  font-size: 50px;
+  left: 5px;
+  top: 2px;
+}
+
+div[class*="st"]:after {
+  position: absolute;
+  font-size: 50px;
+  right: 5px;
+  bottom: 2px;
+}
+
+/* Botones */
+/* .buttons {
+  top: 425px;
+  position: absolute;
+  
+} */
+#random {
+  padding: 10px;
+  background: #00010a;
+  color: #e5e5e5;
+ 
+}
+
+#random:hover{
+background: #FDFC47;  
+background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  
+background: linear-gradient(to right, #24FE41, #FDFC47);
+color: #00010a;
+border: none;
+
+}
+
+#norepeat {
+  padding: 10px;
+  background: #00010a;
+  color: #e5e5e5;
+  
+}
+
+#norepeat:hover{
+    background: #FDFC47;  
+    background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  
+    background: linear-gradient(to right, #24FE41, #FDFC47);
+    color: #00010a;
+    border: none;
+}
+
+#once {
+  padding: 10px;
+  background: #00010a;
+  color: #e5e5e5;
+  
+}
+
+#once:hover{
+    background: #FDFC47;  
+    background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  
+    background: linear-gradient(to right, #24FE41, #FDFC47);
+    color: #00010a;
+    border: none;
+}
+
+.hide_random, .hide_one, .hide_norep{
+    display: none;
+}
+
+#random:hover + .hide_random{
+display: block;
+position: absolute;
+top: 475px;
+color: #e5e5e5;
+padding: 30px;
+}
+
+#norepeat:hover + .hide_norep{
+    display: block;
+    position: absolute;
+    top: 475px;
+    color: #e5e5e5;
+    padding: 30px;
+    }
+
+#once:hover + .hide_one{
+        display: block;
+        position: absolute;
+        top: 475px;
+        color: #e5e5e5;
+        padding: 30px;
+        }
