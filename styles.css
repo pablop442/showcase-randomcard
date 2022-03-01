@@ -90,7 +90,7 @@ div[class*="st"]:after {
   bottom: 2px;
 }
 #random {
-  padding: 10px;
+  
   background: #00010a;
   color: #e5e5e5;
  
@@ -106,7 +106,7 @@ border: none;
 }
 
 #norepeat {
-  padding: 10px;
+
   background: #00010a;
   color: #e5e5e5;
   
@@ -121,7 +121,7 @@ border: none;
 }
 
 #once {
-  padding: 10px;
+ 
   background: #00010a;
   color: #e5e5e5;
   
@@ -135,30 +135,3 @@ border: none;
     border: none;
 }
 
-.hide_random, .hide_one, .hide_norep{
-    display: none;
-}
-
-#random:hover + .hide_random{
-display: block;
-position: absolute;
-top: 550px;
-color: #e5e5e5;
-padding: 30px;
-}
-
-#norepeat:hover + .hide_norep{
-    display: block;
-    position: absolute;
-    top: 550px;
-    color: #e5e5e5;
-    padding: 30px;
-    }
-
-#once:hover + .hide_one{
-        display: block;
-        position: absolute;
-        top: 550px;
-        color: #e5e5e5;
-        padding: 30px;
-        }
