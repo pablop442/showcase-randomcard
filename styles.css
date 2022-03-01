@@ -162,7 +162,7 @@ border: none;
 #random:hover + .hide_random{
 display: block;
 position: absolute;
-top: 475px;
+top: 550px;
 color: #e5e5e5;
 padding: 30px;
 }
@@ -170,7 +170,7 @@ padding: 30px;
 #norepeat:hover + .hide_norep{
     display: block;
     position: absolute;
-    top: 475px;
+    top: 550px;
     color: #e5e5e5;
     padding: 30px;
     }
@@ -178,7 +178,7 @@ padding: 30px;
 #once:hover + .hide_one{
         display: block;
         position: absolute;
-        top: 475px;
+        top: 550px;
         color: #e5e5e5;
         padding: 30px;
         }

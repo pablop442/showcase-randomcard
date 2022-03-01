@@ -7,6 +7,7 @@ const onceBtn = document.querySelector("#once");
 //First view
 window.onload = function() {
   cardElement.classList.add("backcard");
+  alert("Refresh the page at any time to get a new deck")
 };
 
 //Global variables
